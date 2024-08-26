@@ -1,0 +1,32 @@
+
+# Blog Project
+
+## Setup Instructions
+
+1. Clone the repository:
+
+2. Set up a virtual environment and install dependencies:
+python3 -m venv venv source venv/bin/activate pip install -r requirements.txt
+
+3. Set up the database (PostgreSQL):
+
+
+4. Run the server:
+
+## API Endpoints
+
+- `POST /api/register/`: Register a new user.
+- `POST /api/token/`: Obtain a JWT token.
+- `GET /api/posts/`: List all blog posts.
+- `POST /api/posts/`: Create a new blog post.
+- `GET /api/posts/<id>/`: Retrieve a specific blog post.
+- `PUT /api/posts/<id>/`: Update a blog post.
+- `DELETE /api/posts/<id>/`: Delete a blog post.
+
+## Deployment Instructions
+
+- To deploy the application on AWS EC2, follow these steps:
+- Set up an EC2 instance.
+- Install necessary software (Python, PostgreSQL, Nginx, etc.).
+- Clone the repository and set up the environment.
+- Configure Gunicorn and Nginx for deployment.
